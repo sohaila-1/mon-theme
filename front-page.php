@@ -1,12 +1,12 @@
-<?php
-get_header(); // Appelle header.php
-?>
+<?php get_header(); ?>
 
-<main>
-  <h1>Bienvenue sur mon thème WordPress personnalisé !</h1>
-  <p>Ceci est la page d'accueil (front-page.php).</p>
+<main class="home-page">
+  <?php get_template_part('templates/parts/header'); ?>
+  <?php get_template_part('templates/parts/hero'); ?>
+  <?php get_template_part('templates/parts/about'); ?>
+  <?php get_template_part('templates/parts/about-section'); ?>
+  <?php get_template_part('templates/parts/services'); ?>
+  <?php get_template_part('templates/parts/partners'); ?>
 </main>
 
-<?php
-get_footer(); // Appelle footer.php
-?>
+<?php get_footer(); ?>
