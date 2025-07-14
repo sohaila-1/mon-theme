@@ -25,3 +25,10 @@ Avant de commencer, assurez-vous d’avoir :
 ```bash
 git clone https://github.com/sohaila-1/mon-theme.git
 cd mon-theme/mon-theme
+
+
+ 2. Démarre l’environnement WordPress
+wp-env start
+WordPress (http://localhost:8888)
+wp-env stop
+Ouvrir admin WP	http://localhost:8888/wp-admin
