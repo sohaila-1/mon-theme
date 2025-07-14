@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <main class="home-page">
-  <?php get_template_part('templates/parts/header'); ?>
   <?php get_template_part('templates/parts/hero'); ?>
   <?php get_template_part('templates/parts/about'); ?>
   <?php get_template_part('templates/parts/about-section'); ?>

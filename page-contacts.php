@@ -2,7 +2,6 @@
 /* Template Name: Contacts Page */
 get_header();
 ?>
-<?php get_template_part('templates/parts/header'); ?>
 <main class="contact-page container">
   
   <section class="contact-intro">
