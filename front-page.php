@@ -6,6 +6,8 @@
   <?php get_template_part('templates/parts/about-section'); ?>
   <?php get_template_part('templates/parts/services'); ?>
   <?php get_template_part('templates/parts/partners'); ?>
+  <section class="highlighted-service container">
+
 </main>
 
 <?php get_footer(); ?>
